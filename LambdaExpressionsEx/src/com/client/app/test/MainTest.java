@@ -4,7 +4,7 @@ import com.client.app.resources.Eatable;
 
 public class MainTest {
 	public static void main(String[] args) {
-		System.out.println("MainTest.main()");
+		System.out.println("MainTest.main().start");
 		
 		Eatable eatable = new Eatable() {
 
@@ -15,6 +15,7 @@ public class MainTest {
 		};
 		
 		eatable.eat();
+		System.out.println("MainTest.main().end");
 	}
 
 }
